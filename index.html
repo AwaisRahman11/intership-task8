@@ -28,10 +28,10 @@
   <body>
     <div class="container-fluid main">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar mb-3 navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <button
-              class="navbar-toggler"
+              class="d-lg-none mynav bg-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarTogglerDemo03"
@@ -39,10 +39,10 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <i class="fa-solid fa-bars fs-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Blogs</a>
                 </li>
@@ -65,21 +65,15 @@
                 </li>
               </ul>
               <form class="d-flex">
-                <button type="button" class="btn btn-outline-dark me-2">
+                <button type="button" class="btn btn-outline-dark me-2" style="margin-left: 80px;">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <button
-                  class="btn btn-outline-dark"
-                  type="submit"
-                  style="margin-right: 70px"
-                >
-                  Menu
-                </button>
+                <button class="btn btn-outline-dark" type="submit">Menu</button>
               </form>
             </div>
           </div>
         </nav>
-        <div class="col-lg-7 col-md-4 first-col px-4 py-4">
+        <div class="col-lg-7 col-md-4 first-col px-4">
           <div class="text d-flex align-items-center mb-3">
             <h2>The Weaks Best's</h2>
             <a href="#">See all posts</a>
@@ -93,7 +87,10 @@
             />
           </div>
         </div>
-        <div class="col-lg-5 col-md-12 second-col py-5 px-5">
+        <div
+          class="col-lg-5 col-md-12 second-col py-5 px-5"
+          style="padding-top: 30px !important"
+        >
           <div class="card first-box mb-3" style="width: 23rem">
             <h3 class="fw-bold">New</h3>
             <h6>Become a Member</h6>
